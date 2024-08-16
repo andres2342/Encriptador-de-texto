@@ -13,3 +13,6 @@ Este proyecto es un encriptador de texto simple desarrollado con HTML, CSS y Jav
 HTML: Estructura del contenido.
 CSS: Estilos y diseño.
 JavaScript: Lógica de encriptación y desencriptación.
+
+Puedes ver el proyecto aqui:
+https://andres2342.github.io/Encriptador-de-texto/
