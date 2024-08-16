@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="Imagenes/favicon.ico">    
+    <link rel="stylesheet" href="CSS/estilos.css">
+    <!--
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    -->    
+    <title>Encriptador</title>
+</head>
+<body>
+    <!--Encabezado-->
+    <header> 
+        <img class="logo" src="Imagenes/Logo.png" alt="logo de alura">
+    </header>
+    
+    <!--Principal-->
+    <main>
+        <section class="encriptador">
+            <textarea class="encriptar" placeholder="¡Hola! Ingresa tu texto aqui!."></textarea>
+            <div class="encriptador-aviso">
+                <img src="Imagenes/aviso.vga.png" alt="Imagen Aviso" class="img-aviso">
+                <p class="texto-aviso">Solo letras minusculas y sin acentos</p>
+            </div>
+            <div class="encriptador-contenedor">
+                <button type="submit" class="btn-encriptar">Encriptar!</button>
+                <button type="submit" class="btn-desencriptar">Desencriptar</button>
+            </div>
+        </section>
+        <section class="tarjeta">
+            <div class="tarjeta-contenedor">
+                <img src="Imagenes/Muñeco.png" alt="Imagen-Muñeco" class="img-muñeco">
+                <p class="texto-uno">Ningun mensaje fue encontrado</p>
+                <p class="texto-dos">Ingrese el texto que desees encriptar o desencriptar</p>
+            </div>
+            <textarea type="mensaje" class="evaluar" readonly></textarea>
+            <button type="submit" class="btn-copiar">Copiar</button>
+        </section>
+    </main>    
+    <!--pie de pagina-->
+    <footer>
+        <p class="copyright">&copy; copyright 2024 - Encriptador de texto - desarrollado por Andres Vargas Rivera</p>
+        <a href="#" rel="">
+            <img src="Imagenes/logo linkedin.png" alt="linkedin" class="linked">
+        </a>
+        <a href="#" rel="">
+            <img src="Imagenes/logo github.png" alt="logo Github" class="git">
+        </a>
+    </footer>
+
+<script src="JS/encriptador.js"></script>
+</body>
+</html>
+
